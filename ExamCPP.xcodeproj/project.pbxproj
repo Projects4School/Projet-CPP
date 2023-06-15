@@ -31,6 +31,7 @@
 		EBF78B7F2A3B37F900034785 /* Combat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Combat.hpp; sourceTree = "<group>"; };
 		EBF78B812A3B391C00034785 /* Boxeur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boxeur.cpp; sourceTree = "<group>"; };
 		EBF78B822A3B391C00034785 /* Boxeur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Boxeur.hpp; sourceTree = "<group>"; };
+		EBF78B842A3B3C2A00034785 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				EBF78B7F2A3B37F900034785 /* Combat.hpp */,
 				EBF78B812A3B391C00034785 /* Boxeur.cpp */,
 				EBF78B822A3B391C00034785 /* Boxeur.hpp */,
+				EBF78B842A3B3C2A00034785 /* config.h */,
 			);
 			path = ExamCPP;
 			sourceTree = "<group>";
