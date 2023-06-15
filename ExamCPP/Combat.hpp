@@ -28,7 +28,7 @@ public:
     void    SetCoinRouge(Boxeur* boxeur);
     
     Boxeur* GetVainqueur() { return m_pVainqueur; };
-    void    DesignerVainqueur(Boxeur* boxeur) { m_pVainqueur = boxeur; };
+    void    DesignerVainqueur(std::string couleurCoin);
     
     const std::string& GetNiveau() { return m_niveau; };
 private:

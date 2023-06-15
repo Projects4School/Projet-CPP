@@ -41,3 +41,19 @@ void Combat::SetCoinRouge(Boxeur *boxeur)
     if(boxeur != m_pCoinBleu)
         m_pCoinRouge = boxeur;
 };
+
+void Combat::DesignerVainqueur(std::string couleurCoin)
+{
+    if(couleurCoin == "bleu")
+    {
+        m_pVainqueur = m_pCoinBleu;
+    }
+    else if(couleurCoin == "rouge")
+    {
+        m_pVainqueur = m_pCoinRouge;
+    }
+    else
+    {
+        m_pVainqueur = nullptr;
+    }
+};
