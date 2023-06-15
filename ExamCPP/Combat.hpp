@@ -30,6 +30,7 @@ public:
     Boxeur* GetVainqueur() { return m_pVainqueur; };
     void    DesignerVainqueur(Boxeur* boxeur) { m_pVainqueur = boxeur; };
     
+    const std::string& GetNiveau() { return m_niveau; };
 private:
     std::string m_niveau;
     Boxeur*     m_pCoinBleu;
