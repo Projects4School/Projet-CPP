@@ -13,8 +13,8 @@
 #ifndef TRACE
 #define TRACE
 
-#define TRACE_START() std::cout << "Entering " << __func__ << " at " << this << std::endl
-#define TRACE_END() std::cout << "Leaving " << __func__ << " at " << this << std::endl
+#define TRACE_START() std::cout << "[TRACE] Entering " << __func__ << " at " << this << std::endl
+#define TRACE_END() std::cout << "[TRACE] Leaving " << __func__ << " at " << this << std::endl
 
 #endif
 
