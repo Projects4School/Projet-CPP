@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EBF78B782A3B347300034785 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBF78B772A3B347300034785 /* main.cpp */; };
+		EBF78B802A3B37F900034785 /* Combat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBF78B7E2A3B37F900034785 /* Combat.cpp */; };
+		EBF78B832A3B391C00034785 /* Boxeur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBF78B812A3B391C00034785 /* Boxeur.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		EBF78B742A3B347300034785 /* ExamCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExamCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF78B772A3B347300034785 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EBF78B7E2A3B37F900034785 /* Combat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Combat.cpp; sourceTree = "<group>"; };
+		EBF78B7F2A3B37F900034785 /* Combat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Combat.hpp; sourceTree = "<group>"; };
+		EBF78B812A3B391C00034785 /* Boxeur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boxeur.cpp; sourceTree = "<group>"; };
+		EBF78B822A3B391C00034785 /* Boxeur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Boxeur.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				EBF78B772A3B347300034785 /* main.cpp */,
+				EBF78B7E2A3B37F900034785 /* Combat.cpp */,
+				EBF78B7F2A3B37F900034785 /* Combat.hpp */,
+				EBF78B812A3B391C00034785 /* Boxeur.cpp */,
+				EBF78B822A3B391C00034785 /* Boxeur.hpp */,
 			);
 			path = ExamCPP;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF78B832A3B391C00034785 /* Boxeur.cpp in Sources */,
 				EBF78B782A3B347300034785 /* main.cpp in Sources */,
+				EBF78B802A3B37F900034785 /* Combat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
