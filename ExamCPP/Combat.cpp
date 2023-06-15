@@ -29,3 +29,15 @@ Combat::~Combat()
     TRACE_END();
 #endif
 };
+
+void Combat::SetCoinBleu(Boxeur *boxeur)
+{
+    if(boxeur != m_pCoinRouge)
+        m_pCoinBleu = boxeur;
+};
+
+void Combat::SetCoinRouge(Boxeur *boxeur)
+{
+    if(boxeur != m_pCoinBleu)
+        m_pCoinRouge = boxeur;
+};

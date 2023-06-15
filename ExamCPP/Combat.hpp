@@ -22,10 +22,10 @@ public:
     ~Combat();
     
     Boxeur* GetCoinBleu() { return m_pCoinBleu; };
-    void    SetCoinBleu(Boxeur* boxeur) { m_pCoinBleu = boxeur; };
+    void    SetCoinBleu(Boxeur* boxeur);
     
     Boxeur* GetCoinRouge() { return m_pCoinRouge; };
-    void    SetCoinRouge(Boxeur* boxeur) { m_pCoinRouge = boxeur; };
+    void    SetCoinRouge(Boxeur* boxeur);
     
     Boxeur* GetVainqueur() { return m_pVainqueur; };
     void    DesignerVainqueur(Boxeur* boxeur) { m_pVainqueur = boxeur; };
